@@ -1,0 +1,27 @@
+<resources>
+<string name="app_name">Task Manager</string>
+<string name="create_new_account">Create New Account</string>
+<string name="sign_in">Sign In</string>
+<string name="_16_february_2020">16 February 2020</string>
+<string name="it_s_my_title">It\'s my Title</string>
+<string name="it_s_my_title_description">It\'s my Title description</string>
+<string name="update_your_data">Update Your Data</string>
+<string name="name">Name:</string>
+<string name="description">Description:</string>
+<string name="delete">DELETE</string>
+<string name="update">UPDATE</string>
+<string name="log_out">Log out</string>
+<string name="we_will_mail_you_a_link_after_when_you_provide_email_and_click_the_send_button_plsease_click_on_that_link_to_reset_your_password">We will mail you a link after when you provide email and click the send button.Plsease click on that link to reset your password</string>
+<string name="enter_email_address_here">Enter email address here</string>
+<string name="send_email">Send Email</string>
+<string name="task_manager">Task Manager</string>
+<string name="or">OR</string>
+<string name="forget_password">Forget password?</string>
+<string name="sign_up">Sign Up</string>
+<string name="write_email_address_here">write email address here…</string>
+<string name="write_password_here">write password here…</string>
+    <string name="input_your_data">Input Your Data</string>
+    <string name="save">SAVE</string>
+    <string name="cancel">CANCEL</string>
+
+</resources>

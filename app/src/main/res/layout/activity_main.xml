@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/backdesign"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/task_manager"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:textAppearanceLarge"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:drawableStart="@drawable/ic_email_black_24dp"
+            android:hint="@string/write_email_address_here"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/edittxtdesign"
+            android:padding="10dp"
+            android:id="@+id/email_login"
+            android:textColorHint="@android:color/darker_gray"
+            android:textColor="@android:color/black"
+            tools:ignore="Autofill,HardcodedText" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:drawableStart="@drawable/ic_lock_black_24dp"
+            android:hint="@string/write_password_here"
+            android:inputType="textPassword"
+            android:background="@drawable/edittxtdesign"
+            android:padding="10dp"
+            android:id="@+id/password_login"
+            android:textColorHint="@android:color/darker_gray"
+            android:textColor="@android:color/black"
+            tools:ignore="Autofill" />
+
+        <Button
+            android:id="@+id/btnsignin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Sign in"
+            android:textColor="@android:color/white"
+            android:background="@drawable/btndesign"
+            android:textAppearance="?android:textAppearanceMedium"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="@string/or"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:textAppearanceLarge"/>
+
+        <Button
+            android:id="@+id/btnsingup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/signupbutton"
+            android:text="@string/sign_up"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom">
+
+        <TextView
+            android:id="@+id/txtforgetpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:text="@string/forget_password"/>
+
+    </LinearLayout>
+
+</LinearLayout>
